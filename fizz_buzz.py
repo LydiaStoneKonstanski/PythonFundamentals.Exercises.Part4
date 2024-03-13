@@ -5,10 +5,10 @@ def fizz_buzz():
     for num in range(100): #The program prints each number from 1 to 100 to a new line.
         if num % 3 == 0 and num % 5 == 0: #If the number is a multiple of both 3 and 5, print "FizzBuzz" instead of the number.
             print("FizzBuzz")
-            continue
+            #continue
         elif num % 3 == 0: #If the number is a multiple of 3, print "Fizz" instead of the number.
             print("Fizz")
-            continue
+            #continue
         elif num % 5 == 0: #If the number is a multiple of 5, print "Buzz" instead of the number.
             print("Buzz")
         else:

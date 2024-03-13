@@ -10,3 +10,12 @@ def fibonnaci(num):
 #Constraint
 for i in range(1, 31):
     print(fibonnaci(i))
+
+# found this one in Think Java as well, supposed to be faster
+#   def fibonacci(n):
+#        if n in known:
+#            return known[n]
+#        result = fibonacci(n - 1) + fibonacci(n - 2)
+#        known[n] = result
+#        return result
+#return
