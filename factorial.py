@@ -20,10 +20,13 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-def print_factorial():
-    for i in range(1, 996):
-        print(factorial(i))
+def print_factorial(n):
+    if n >= 0 and n < 995:
+        print(factorial(n))
+    else:
+        print("number is out of range")
 
+print_factorial(7)
 
 
 
