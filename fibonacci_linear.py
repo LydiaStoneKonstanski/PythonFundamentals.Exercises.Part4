@@ -22,3 +22,20 @@ def fibonacci_linear(num):
 
 for i in range(1, 31):
     print(fibonacci_linear(i))
+
+print(fibonacci_linear(0))
+print(fibonacci_linear(4))
+print(fibonacci_linear(30))
+print(fibonacci_linear(149))
+
+# from Kris
+# def fibonacci_linear(n: int): -> int:
+#     if n == 0:
+#         return 0
+#     if n == 1:
+#         return 1
+#
+#     last, next = 0, 1
+#     for _ in range(n):
+#         temp = nextnext = last + nextlast = temp
+#     return last
