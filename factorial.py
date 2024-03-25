@@ -15,12 +15,12 @@ n >= 0 n < 995
 """
 
 def factorial(n):
-    if n == 0:
+    if n == 0 or n == 1:
         return 1
     else:
-        return n * factorial(n-1)
+        return n * factorial(n - 1)
 
-def print_factorial(n):
+def print_factorial(n) -> None:
     if n >= 0 and n < 995:
         print(factorial(n))
     else:
@@ -28,7 +28,10 @@ def print_factorial(n):
 
 print_factorial(7)
 
-
-
+# OTHER POSSIBLE FUNCTIONS via Kris
+# def fact1(x):
+#     return 1 if x == 1 or x == 0 else x * fact1(x - 1)
+#
+# fact2 = lambda x : 1 if x == 1 or x == 0 else x * fact1(x - 1)
 
 
